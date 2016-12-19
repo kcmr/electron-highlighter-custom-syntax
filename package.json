@@ -10,7 +10,7 @@
     "dark",
     "spacegray"
   ],
-  "repository": "https://github.com/atom/electron-highlighter-custom-syntax",
+  "repository": "https://github.com/kcmr/electron-highlighter-custom-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
