@@ -1,7 +1,7 @@
 {
   "name": "electron-highlighter-custom-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Electron Highlighter Syntax with subtle modifications.",
   "keywords": [
     "syntax",
