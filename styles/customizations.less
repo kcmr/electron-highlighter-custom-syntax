@@ -1,17 +1,17 @@
-atom-text-editor::shadow /deep/ {
-  span.comment.block.html span.invalid {
+atom-text-editor {
+  span.syntax--comment.syntax--block.syntax--html span.syntax--invalid {
     background-color: transparent !important;
     color: #506686 !important;
   }
 
-  span.source.scss.css span.invalid.illegal {
+  span.syntax--source.syntax--scss.syntax--css span.syntax--invalid.syntax--illegal {
     color: #97a7c8 !important;
     background-color: transparent !important;
   }
 
-  span.punctuation.definition.tag.html { color: #e76572; }
-  .string { color: #56a3b1; }
-  .string.js { color: #b3d667; }
-  .entity.other.attribute-name.id { color: #fffa9e; }
-  .markup.link { color: #90a959; }
+  span.syntax--punctuation.syntax--definition.syntax--tag.syntax--html { color: #e76572; }
+  .syntax--string { color: #56a3b1; }
+  .syntax--string.syntax--js { color: #b3d667; }
+  .syntax--entity.syntax--other.syntax--attribute-name.syntax--id { color: #fffa9e; }
+  .syntax--markup.syntax--link { color: #90a959; }
 }
